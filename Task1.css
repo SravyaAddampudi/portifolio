@@ -1,0 +1,334 @@
+.portfolio{
+    background-image: url('porti\ bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .navbar{
+    display:flex;
+    padding:30px;
+    background-color:hsl(0, 12%, 93%);
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+  }
+  .navbar_name{
+    color: rgb(10, 9, 9);
+    padding-left: 20px;
+    padding-right: 300px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Algerian;
+  }
+  button{
+    border: 10px;
+    font-size: 16px;
+    padding: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    cursor: pointer;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px rgba(14, 45, 172, 0.15);
+    transition: box-shadow 0.15s;
+    transition: background-color 1s,color 1s;
+  }
+  button:hover{
+    background-color:white;
+    opacity: 0.3;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15s);
+  }
+  a{
+    color: white;
+    }
+  img{
+    width: 200px;
+    border-radius: 50%;
+    padding: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    display: square;
+    /* height: 200px; */
+  }
+  .row{
+    padding-top:20px;
+    align-items: center;
+    text-align: center;
+    color:white;
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .row1{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .row button{
+    margin-bottom: 150px;
+  }
+  p{
+    font-size: 18px;
+    text-align: center;
+    color: #111011;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+    margin: 0px; 
+  }
+  .navbar-h{
+    padding:10px;
+    background:rgb(116, 22, 37);
+  }
+  /* Animation */
+  .hm{
+    width: 100px;
+    height: 30px;
+    background: rgb(147, 15, 15);
+    position: relative;
+    animation-name: mymove;
+    animation-duration: 20s;
+  }
+  .move{
+    width: 170px;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #bbebf2;
+    font-weight: 10px;
+    font-size: xx-large;
+    color: #101112;
+    position: relative;
+    animation-name: mymove;
+    animation-duration: 5s;
+  }
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 100px;}
+  }
+  
+  /* About */
+  .About{
+    background-color:#ffffff ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+    color:rgb(9, 9, 9);
+    height: 900px;
+    border: #912118;
+  }
+  .about button{
+    color: #912118;
+  }
+  .experience{
+    background-color: #121212;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+  
+  }
+  .exp-col{
+    background-color: #f6f9fc;
+    height: 1500px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    margin-top: 60px;
+    color: black;
+    }
+  
+  /* Education */
+  .Education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 234, 234);
+    text-align:center;
+    height: 950px;
+  }
+  table th,td{
+    border: 1px solid rgb(12, 12, 12);
+    text-align: center;
+    color: white;
+    background-color:crimson;
+    height: 50px;
+  }
+  table{
+    align-items: center;
+    padding: 50px;
+  }
+  table th{
+    text-transform: uppercase;
+  }
+  .projects{
+    background-color: rgb(10, 10, 10);
+    }
+  .text{
+    color: white;
+    font-size: 30px;
+  }
+  
+  /* skills */
+  .Skills{
+    background: #eef1f4; 
+    height: 1300px;
+  }
+  .Skills h2{
+    margin: none;
+  }
+  .skill-set{
+    padding: 50px;
+    margin: 20px;
+    height: 700px;
+  }
+  .Skills p{
+    font-size: 30px;
+  }
+  .html{
+    width:95%;
+    background-color: #f44336;
+    height:40px;
+    font-size: 30px;
+    color: white;
+  }
+  .css {
+    height:40px;
+    width: 85%;
+    background-color: #a5192e;
+    font-size: 30px;
+    color: white;
+  } 
+  .js{
+    height:40px;
+    width: 30%;
+    background-color: #f44336;
+    font-size: 30px;
+    color: white;
+  } 
+  .py{
+    color: white;
+    height:40px;
+    width: 60%;
+    background-color: rgb(117, 33, 47);
+    font-size: 30px;
+  }
+  .container {
+    width:100%;
+    height:300px;
+    background-color:white;
+    border-radius: 1px;
+    border:black ;
+  }
+  .container div{
+    float: left;
+    width: 33.33%;
+    height: 160px;
+    background-color: #a5192e;
+  }
+  .container img{
+    width: 90px;
+    height: 90px;
+  }
+  #box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #a7281f;
+    height:360px;
+  }
+  #box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #912118;
+    height:360px;
+  }
+  #box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b4382f;
+    height:360px;
+  }
+  
+  /* contact */
+  * {
+    box-sizing: border-box;
+  }
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  .column label{
+    color:black;
+  }
+  .con {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  .column {
+   
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  form{
+    height: 500px;
+  }
+  .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* footer */
+  .row2{
+    background-color: rgb(223, 101, 133);
+    text-align: center;
+    padding: 10px;
+  }
+  .skillname{
+    color: #e8bccc;
+    text-align: left;
+  }
